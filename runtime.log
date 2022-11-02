@@ -269,3 +269,104 @@ requests.exceptions.RequestException: Failed to get order history, cookie may ha
 2022-11-02 20:28:32.537 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2022-11-02 20:28:34.766 | DEBUG    | services.bricklayer.core:cart_handle_payment:566 - [🌀] 弹出内联订单框架...
 2022-11-02 20:28:41.988 | SUCCESS  | services.deploy:_pusher_wrapper:200 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2022-11-02 20:34:42.792 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: False
+2022-11-02 20:34:42.887 | INFO     | services.bricklayer.core:load_ctx_cookies:657 - >> LOAD [CookieManager] Load context cookie
+2022-11-02 20:34:43.472 | INFO     | services.bricklayer.core:load_ctx_cookies:657 - >> LOAD [CookieManager] Load context cookie
+2022-11-02 20:34:43.477 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-11-02 20:34:44.051 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Warhammer 40,000: Mechanicus - Standard Edition』 url=https://store.epicgames.com/zh-CN/p/warhammer-mechanicus-0e4b71
+2022-11-02 20:34:44.052 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Saturnalia』 url=https://store.epicgames.com/zh-CN/p/saturnalia
+2022-11-02 20:34:44.952 | DEBUG    | services.bricklayer.game:cart_balancing:71 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-11-02 20:34:53.330 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 10:00 - game=『Warhammer 40,000: Mechanicus - Standard Edition』
+2022-11-02 20:34:53.668 | INFO     | services.bricklayer.core:_activate_payment:474 - [🔖] 已添加商品至购物车
+2022-11-02 20:34:58.841 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 10:00 - game=『Saturnalia』
+2022-11-02 20:34:58.934 | INFO     | services.bricklayer.core:_activate_payment:474 - [🔖] 已添加商品至购物车
+2022-11-02 20:35:00.937 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 20:35:01.980 | INFO     | services.bricklayer.core:_activate_payment:478 - [🔖] 已激活购物车零元购订单
+2022-11-02 20:35:01.990 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [🛵] 处理购物订单...
+2022-11-02 20:35:09.242 | DEBUG    | services.bricklayer.core:cart_handle_payment:564 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-02 20:35:09.275 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:35:10.649 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.94s
+2022-11-02 20:35:10.846 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading rabbit.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/rabbit.onnx
+2022-11-02 20:35:13.228 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 1.14s
+2022-11-02 20:35:13.242 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:35:15.266 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:35:16.661 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.99s
+2022-11-02 20:35:18.320 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:35:23.363 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:35:23.363 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:35:25.617 | DEBUG    | services.bricklayer.core:cart_handle_payment:566 - [🌀] 弹出内联订单框架...
+2022-11-02 20:35:26.896 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 20:35:27.749 | INFO     | services.bricklayer.core:_activate_payment:478 - [🔖] 已激活购物车零元购订单
+2022-11-02 20:35:27.749 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [🛵] 处理购物订单...
+2022-11-02 20:35:34.786 | DEBUG    | services.bricklayer.core:cart_handle_payment:564 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-02 20:35:34.813 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:35:35.877 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.69s
+2022-11-02 20:35:37.736 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.61s
+2022-11-02 20:35:37.752 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:35:39.774 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:35:40.861 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.69s
+2022-11-02 20:35:42.833 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.61s
+2022-11-02 20:35:47.879 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:35:47.880 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:35:50.132 | DEBUG    | services.bricklayer.core:cart_handle_payment:566 - [🌀] 弹出内联订单框架...
+2022-11-02 20:35:51.600 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 20:35:52.440 | INFO     | services.bricklayer.core:_activate_payment:478 - [🔖] 已激活购物车零元购订单
+2022-11-02 20:35:52.441 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [🛵] 处理购物订单...
+2022-11-02 20:35:59.364 | DEBUG    | services.bricklayer.core:cart_handle_payment:564 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-02 20:35:59.393 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:36:00.546 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.78s
+2022-11-02 20:36:02.401 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.61s
+2022-11-02 20:36:02.416 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:36:04.439 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:36:05.727 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.88s
+2022-11-02 20:36:07.397 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.61s
+2022-11-02 20:36:12.439 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:36:12.440 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:36:14.696 | DEBUG    | services.bricklayer.core:cart_handle_payment:566 - [🌀] 弹出内联订单框架...
+2022-11-02 20:36:19.955 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 10:00 - game=『Warhammer 40,000: Mechanicus - Standard Edition』
+2022-11-02 20:36:20.452 | INFO     | services.bricklayer.core:_activate_payment:474 - [🔖] 已添加商品至购物车
+2022-11-02 20:36:25.237 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 10:00 - game=『Saturnalia』
+2022-11-02 20:36:25.546 | INFO     | services.bricklayer.core:_activate_payment:474 - [🔖] 已添加商品至购物车
+2022-11-02 20:36:27.334 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 20:36:28.454 | INFO     | services.bricklayer.core:_activate_payment:478 - [🔖] 已激活购物车零元购订单
+2022-11-02 20:36:28.465 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [🛵] 处理购物订单...
+2022-11-02 20:36:35.441 | DEBUG    | services.bricklayer.core:cart_handle_payment:564 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-02 20:36:35.477 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:36:36.637 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.72s
+2022-11-02 20:36:38.701 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.63s
+2022-11-02 20:36:38.720 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:36:40.746 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:36:41.825 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.65s
+2022-11-02 20:36:43.531 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.63s
+2022-11-02 20:36:48.580 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:36:48.580 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:36:50.835 | DEBUG    | services.bricklayer.core:cart_handle_payment:566 - [🌀] 弹出内联订单框架...
+2022-11-02 20:36:52.267 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 20:36:53.345 | INFO     | services.bricklayer.core:_activate_payment:478 - [🔖] 已激活购物车零元购订单
+2022-11-02 20:36:53.346 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [🛵] 处理购物订单...
+2022-11-02 20:37:00.332 | DEBUG    | services.bricklayer.core:cart_handle_payment:564 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-02 20:37:00.361 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:37:01.496 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.73s
+2022-11-02 20:37:03.235 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.63s
+2022-11-02 20:37:03.250 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:37:05.275 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:37:06.450 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.77s
+2022-11-02 20:37:08.301 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.63s
+2022-11-02 20:37:13.354 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:37:13.354 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:37:15.634 | DEBUG    | services.bricklayer.core:cart_handle_payment:566 - [🌀] 弹出内联订单框架...
+2022-11-02 20:37:17.046 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 20:37:18.127 | INFO     | services.bricklayer.core:_activate_payment:478 - [🔖] 已激活购物车零元购订单
+2022-11-02 20:37:18.127 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [🛵] 处理购物订单...
+2022-11-02 20:37:25.596 | DEBUG    | services.bricklayer.core:cart_handle_payment:564 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-02 20:37:25.625 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:37:26.895 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.69s
+2022-11-02 20:37:28.919 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.62s
+2022-11-02 20:37:28.935 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:37:30.958 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:37:32.074 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.71s
+2022-11-02 20:37:33.773 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.62s
+2022-11-02 20:37:38.817 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:37:38.817 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:37:41.063 | DEBUG    | services.bricklayer.core:cart_handle_payment:566 - [🌀] 弹出内联订单框架...
+2022-11-02 20:37:48.004 | SUCCESS  | services.deploy:_pusher_wrapper:200 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
