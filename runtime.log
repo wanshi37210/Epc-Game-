@@ -552,3 +552,17 @@ requests.exceptions.RequestException: Failed to get order history, cookie may ha
 2022-11-02 21:10:45.112 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
 2022-11-02 21:10:45.646 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:84 - ADVANCE [GameClaimer] ✔ 购物车已清空
 2022-11-02 21:10:54.812 | SUCCESS  | services.deploy:_pusher_wrapper:200 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2022-11-02 21:54:46.296 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: False
+2022-11-02 21:54:46.403 | INFO     | services.bricklayer.core:load_ctx_cookies:657 - >> LOAD [CookieManager] Load context cookie
+2022-11-02 21:54:47.229 | INFO     | services.bricklayer.core:load_ctx_cookies:657 - >> LOAD [CookieManager] Load context cookie
+2022-11-02 21:54:47.235 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-11-02 21:54:47.629 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Warhammer 40,000: Mechanicus - Standard Edition』 url=https://store.epicgames.com/zh-CN/p/warhammer-mechanicus-0e4b71
+2022-11-02 21:54:47.629 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Saturnalia』 url=https://store.epicgames.com/zh-CN/p/saturnalia
+2022-11-02 21:54:49.273 | DEBUG    | services.bricklayer.game:cart_balancing:71 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-11-02 21:54:59.870 | INFO     | services.bricklayer.core:purchase_status:362 - >> GET [GameClaimer] 🛴 游戏已在库 - game=『Warhammer 40,000: Mechanicus - Standard Edition』
+2022-11-02 21:55:01.477 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 21:55:02.176 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:84 - ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-11-02 21:55:08.324 | INFO     | services.bricklayer.core:purchase_status:362 - >> GET [GameClaimer] 🛴 游戏已在库 - game=『Saturnalia』
+2022-11-02 21:55:10.190 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 21:55:10.937 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:84 - ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-11-02 21:55:13.204 | SUCCESS  | services.deploy:_pusher_wrapper:200 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
