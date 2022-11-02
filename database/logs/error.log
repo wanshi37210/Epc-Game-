@@ -1,0 +1,30 @@
+2022-11-02 20:19:05.600 | CRITICAL | services.bricklayer.core:refresh_ctx_cookies:715 - >> MISS [CookieManager] Identity token update failed
+2022-11-02 20:19:10.854 | ERROR    | services.explorer.explorer:get_order_history:142 - Failed to get order history, cookie may have expired
+Traceback (most recent call last):
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 110, in job_loop_claim
+    claimer.just_do_it()
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 351, in just_do_it
+    super().just_do_it()
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 273, in just_do_it
+    self.promotions_filter()
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 320, in promotions_filter
+    order_history = self.get_order_history()
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 314, in get_order_history
+    self.ph.get_oder_history(ctx_cookies=self._ctx_cookies)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/explorer/explorer.py", line 219, in get_oder_history
+    if resp := explorer.get_order_history(ctx_cookies):
+> File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/explorer/explorer.py", line 140, in get_order_history
+    raise RequestException("Failed to get order history, cookie may have expired")
+requests.exceptions.RequestException: Failed to get order history, cookie may have expired

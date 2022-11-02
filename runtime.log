@@ -1,0 +1,156 @@
+2022-11-02 20:14:55.348 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading objects.yaml from https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml
+2022-11-02 20:14:55.386 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:133 - Pulling AssetsObject from https://api.github.com/repos/qin2dim/hcaptcha-challenger/releases
+2022-11-02 20:14:55.559 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading yolov6n.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/yolov6n.onnx
+2022-11-02 20:14:57.756 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: False
+2022-11-02 20:14:58.730 | INFO     | services.bricklayer.core:refresh_ctx_cookies:689 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-02 20:14:58.777 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 20:15:09.620 | INFO     | services.bricklayer.core:login:530 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-11-02 20:15:09.620 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-11-02 20:15:11.872 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:15:12.859 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.6s
+2022-11-02 20:15:13.097 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading rabbit.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/rabbit.onnx
+2022-11-02 20:15:15.624 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 1.2s
+2022-11-02 20:15:15.634 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:15:17.661 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:15:18.441 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.5s
+2022-11-02 20:15:20.357 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:15:25.398 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:15:25.398 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:15:27.401 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 20:15:37.258 | INFO     | services.bricklayer.core:login:530 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-11-02 20:15:37.258 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-11-02 20:15:39.424 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:15:40.184 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.5s
+2022-11-02 20:15:42.010 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:15:42.018 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:15:44.034 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:15:44.908 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.64s
+2022-11-02 20:15:46.823 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:15:58.093 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 20:16:09.925 | INFO     | services.bricklayer.core:login:530 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-11-02 20:16:09.925 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-11-02 20:16:12.075 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:16:12.910 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.58s
+2022-11-02 20:16:14.740 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:16:14.750 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:16:16.765 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:16:17.503 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.52s
+2022-11-02 20:16:19.427 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:16:24.457 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:16:24.457 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:16:26.459 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 20:16:34.739 | INFO     | services.bricklayer.core:login:530 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-11-02 20:16:34.740 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-11-02 20:16:36.875 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:16:37.615 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.51s
+2022-11-02 20:16:39.588 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.61s
+2022-11-02 20:16:39.597 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:16:41.611 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:16:42.348 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.53s
+2022-11-02 20:16:44.120 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:16:55.425 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 20:17:04.496 | INFO     | services.bricklayer.core:login:530 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-11-02 20:17:04.497 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-11-02 20:17:06.596 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:17:07.350 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.51s
+2022-11-02 20:17:09.014 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:17:09.025 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:17:11.041 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:17:11.763 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.52s
+2022-11-02 20:17:13.669 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:17:18.708 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:17:18.708 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:17:20.713 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 20:17:28.545 | INFO     | services.bricklayer.core:login:530 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-11-02 20:17:28.546 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-11-02 20:17:30.681 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:17:31.385 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.44s
+2022-11-02 20:17:33.183 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:17:33.192 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:17:35.208 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:17:35.986 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.56s
+2022-11-02 20:17:37.934 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:17:42.962 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:17:42.962 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:17:44.967 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 20:17:53.335 | INFO     | services.bricklayer.core:login:530 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-11-02 20:17:53.335 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-11-02 20:17:55.462 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:17:56.220 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.54s
+2022-11-02 20:17:58.017 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:17:58.025 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:18:00.041 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:18:00.767 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.48s
+2022-11-02 20:18:02.684 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:18:07.712 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:18:07.713 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:18:09.717 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 20:18:18.267 | INFO     | services.bricklayer.core:login:530 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-11-02 20:18:18.267 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-11-02 20:18:20.426 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:18:21.199 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.5s
+2022-11-02 20:18:22.868 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.61s
+2022-11-02 20:18:22.876 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:18:24.890 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:18:25.650 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.52s
+2022-11-02 20:18:27.601 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:18:38.870 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 20:18:49.307 | INFO     | services.bricklayer.core:login:530 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-11-02 20:18:49.307 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-11-02 20:18:51.456 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:18:52.234 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.56s
+2022-11-02 20:18:54.047 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:18:54.057 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:18:56.071 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-02 20:18:56.787 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.5s
+2022-11-02 20:18:58.567 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit(ResNet)_model: 0.6s
+2022-11-02 20:19:03.595 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-02 20:19:03.595 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 20:19:05.600 | CRITICAL | services.bricklayer.core:refresh_ctx_cookies:715 - >> MISS [CookieManager] Identity token update failed
+2022-11-02 20:19:10.754 | INFO     | services.bricklayer.core:load_ctx_cookies:657 - >> LOAD [CookieManager] Load context cookie
+2022-11-02 20:19:10.755 | INFO     | services.explorer.explorer:get_oder_history:216 - 初始化订单数据
+2022-11-02 20:19:10.854 | ERROR    | services.explorer.explorer:get_order_history:142 - Failed to get order history, cookie may have expired
+Traceback (most recent call last):
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 110, in job_loop_claim
+    claimer.just_do_it()
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 351, in just_do_it
+    super().just_do_it()
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 273, in just_do_it
+    self.promotions_filter()
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 320, in promotions_filter
+    order_history = self.get_order_history()
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 314, in get_order_history
+    self.ph.get_oder_history(ctx_cookies=self._ctx_cookies)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/explorer/explorer.py", line 219, in get_oder_history
+    if resp := explorer.get_order_history(ctx_cookies):
+> File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/explorer/explorer.py", line 140, in get_order_history
+    raise RequestException("Failed to get order history, cookie may have expired")
+requests.exceptions.RequestException: Failed to get order history, cookie may have expired
+2022-11-02 20:19:11.259 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Warhammer 40,000: Mechanicus - Standard Edition』 url=https://store.epicgames.com/zh-CN/p/warhammer-mechanicus-0e4b71
+2022-11-02 20:19:11.259 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Saturnalia』 url=https://store.epicgames.com/zh-CN/p/saturnalia
+2022-11-02 20:19:12.101 | DEBUG    | services.bricklayer.game:cart_balancing:71 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-11-02 20:19:23.442 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 11:00 - game=『Warhammer 40,000: Mechanicus - Standard Edition』
+2022-11-02 20:19:23.600 | INFO     | services.bricklayer.core:_activate_payment:474 - [🔖] 已添加商品至购物车
+2022-11-02 20:19:27.826 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 11:00 - game=『Saturnalia』
+2022-11-02 20:19:28.022 | INFO     | services.bricklayer.core:_activate_payment:474 - [🔖] 已添加商品至购物车
+2022-11-02 20:19:33.124 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 20:19:34.713 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:84 - ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-11-02 20:19:39.012 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 11:00 - game=『Warhammer 40,000: Mechanicus - Standard Edition』
+2022-11-02 20:19:39.570 | INFO     | services.bricklayer.core:_activate_payment:474 - [🔖] 已添加商品至购物车
+2022-11-02 20:19:43.579 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 11:00 - game=『Saturnalia』
+2022-11-02 20:19:43.724 | INFO     | services.bricklayer.core:_activate_payment:474 - [🔖] 已添加商品至购物车
+2022-11-02 20:19:49.244 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 20:19:50.816 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:84 - ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-11-02 20:19:55.984 | SUCCESS  | services.deploy:_pusher_wrapper:200 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
