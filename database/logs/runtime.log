@@ -566,3 +566,67 @@ requests.exceptions.RequestException: Failed to get order history, cookie may ha
 2022-11-02 21:55:10.190 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
 2022-11-02 21:55:10.937 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:84 - ADVANCE [GameClaimer] ✔ 购物车已清空
 2022-11-02 21:55:13.204 | SUCCESS  | services.deploy:_pusher_wrapper:200 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2022-11-04 07:30:40.101 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: False
+2022-11-04 07:30:40.200 | INFO     | services.bricklayer.core:load_ctx_cookies:660 - >> LOAD [CookieManager] Load context cookie
+2022-11-04 07:30:42.856 | INFO     | services.bricklayer.core:refresh_ctx_cookies:692 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-04 07:30:42.911 | INFO     | services.bricklayer.core:login:500 - >> MATCH [CookieManager] 刷新令牌
+2022-11-04 07:30:45.371 | INFO     | services.bricklayer.core:login:513 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-04 07:30:48.036 | INFO     | services.bricklayer.core:load_ctx_cookies:660 - >> LOAD [CookieManager] Load context cookie
+2022-11-04 07:30:48.042 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-11-04 07:30:48.308 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Rising Storm 2: Vietnam』 url=https://store.epicgames.com/zh-CN/p/rising-storm-2-vietnam
+2022-11-04 07:30:48.309 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Filament』 url=https://store.epicgames.com/zh-CN/p/filament-332a92
+2022-11-04 07:30:49.172 | DEBUG    | services.bricklayer.game:cart_balancing:71 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-11-04 07:30:59.872 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/10 10:00 - game=『Rising Storm 2: Vietnam』
+2022-11-04 07:31:00.056 | INFO     | services.bricklayer.core:_activate_payment:476 - [🔖] 已添加商品至购物车
+2022-11-04 07:31:06.005 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/10 10:00 - game=『Filament』
+2022-11-04 07:31:06.112 | INFO     | services.bricklayer.core:_activate_payment:476 - [🔖] 已添加商品至购物车
+2022-11-04 07:31:08.092 | DEBUG    | services.bricklayer.core:cart_is_empty:537 - [🛵] 审查购物车状态
+2022-11-04 07:31:09.189 | INFO     | services.bricklayer.core:_activate_payment:480 - [🔖] 已激活购物车零元购订单
+2022-11-04 07:31:09.197 | DEBUG    | services.bricklayer.core:cart_handle_payment:563 - [🛵] 处理购物订单...
+2022-11-04 07:31:16.616 | DEBUG    | services.bricklayer.core:cart_handle_payment:567 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-04 07:31:16.649 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「森林中黑猫」
+2022-11-04 07:31:18.084 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.87s
+2022-11-04 07:31:18.491 | DEBUG    | services.bricklayer.core:cart_handle_payment:569 - [🌀] 弹出内联订单框架...
+2022-11-04 07:31:20.646 | DEBUG    | services.bricklayer.core:cart_is_empty:537 - [🛵] 审查购物车状态
+2022-11-04 07:31:21.529 | INFO     | services.bricklayer.core:_activate_payment:480 - [🔖] 已激活购物车零元购订单
+2022-11-04 07:31:21.529 | DEBUG    | services.bricklayer.core:cart_handle_payment:563 - [🛵] 处理购物订单...
+2022-11-04 07:31:28.486 | DEBUG    | services.bricklayer.core:cart_handle_payment:567 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-04 07:31:28.516 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-04 07:31:29.691 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.8s
+2022-11-04 07:31:29.890 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading rabbit_blur.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/rabbit_blur.onnx
+2022-11-04 07:31:32.510 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit_blur(ResNet)_model: 1.08s
+2022-11-04 07:31:32.526 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-04 07:31:34.548 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-04 07:31:35.634 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.7s
+2022-11-04 07:31:38.188 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit_blur(ResNet)_model: 0.61s
+2022-11-04 07:31:43.232 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-04 07:31:43.232 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-04 07:31:45.483 | DEBUG    | services.bricklayer.core:cart_handle_payment:569 - [🌀] 弹出内联订单框架...
+2022-11-04 07:31:46.964 | DEBUG    | services.bricklayer.core:cart_is_empty:537 - [🛵] 审查购物车状态
+2022-11-04 07:31:48.063 | INFO     | services.bricklayer.core:_activate_payment:480 - [🔖] 已激活购物车零元购订单
+2022-11-04 07:31:48.064 | DEBUG    | services.bricklayer.core:cart_handle_payment:563 - [🛵] 处理购物订单...
+2022-11-04 07:31:55.236 | DEBUG    | services.bricklayer.core:cart_handle_payment:567 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-04 07:31:55.264 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「森林中黑猫」
+2022-11-04 07:31:56.501 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.85s
+2022-11-04 07:31:56.992 | DEBUG    | services.bricklayer.core:cart_handle_payment:569 - [🌀] 弹出内联订单框架...
+2022-11-04 07:32:01.575 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/10 10:00 - game=『Rising Storm 2: Vietnam』
+2022-11-04 07:32:01.918 | INFO     | services.bricklayer.core:_activate_payment:476 - [🔖] 已添加商品至购物车
+2022-11-04 07:32:06.459 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/10 10:00 - game=『Filament』
+2022-11-04 07:32:06.853 | INFO     | services.bricklayer.core:_activate_payment:476 - [🔖] 已添加商品至购物车
+2022-11-04 07:32:08.755 | DEBUG    | services.bricklayer.core:cart_is_empty:537 - [🛵] 审查购物车状态
+2022-11-04 07:32:09.728 | INFO     | services.bricklayer.core:_activate_payment:480 - [🔖] 已激活购物车零元购订单
+2022-11-04 07:32:09.735 | DEBUG    | services.bricklayer.core:cart_handle_payment:563 - [🛵] 处理购物订单...
+2022-11-04 07:32:16.760 | DEBUG    | services.bricklayer.core:cart_handle_payment:567 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-04 07:32:16.801 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「悬挂在天花板上的植物」
+2022-11-04 07:32:18.057 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.81s
+2022-11-04 07:32:18.059 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading plant_hanging_from_the_ceiling.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/plant_hanging_from_the_ceiling.onnx
+2022-11-04 07:32:20.010 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - plant_hanging_from_the_ceiling(ResNet)_model: 0.34s
+2022-11-04 07:32:20.027 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-04 07:32:22.050 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「悬挂在天花板上的植物」
+2022-11-04 07:32:23.231 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.78s
+2022-11-04 07:32:24.953 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - plant_hanging_from_the_ceiling(ResNet)_model: 0.01s
+2022-11-04 07:32:29.785 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-11-04 07:32:30.004 | DEBUG    | services.bricklayer.core:cart_handle_payment:569 - [🌀] 弹出内联订单框架...
+2022-11-04 07:32:31.106 | DEBUG    | services.bricklayer.core:cart_is_empty:537 - [🛵] 审查购物车状态
+2022-11-04 07:32:31.501 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:84 - ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-11-04 07:32:38.513 | SUCCESS  | services.deploy:_pusher_wrapper:200 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
