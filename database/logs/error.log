@@ -28,3 +28,59 @@ Traceback (most recent call last):
 > File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/explorer/explorer.py", line 140, in get_order_history
     raise RequestException("Failed to get order history, cookie may have expired")
 requests.exceptions.RequestException: Failed to get order history, cookie may have expired
+2022-11-11 07:31:07.619 | ERROR    | services.scaffold:claim:138 - An error has been caught in function 'claim', process 'MainProcess' (1797), thread 'MainThread' (139716851509056):
+Traceback (most recent call last):
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+> File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 112, in job_loop_claim
+    claimer.just_do_it()
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 414, in just_do_it
+    fire(
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/utils/toolbox.py", line 84, in fire
+    container(context)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/deploy.py", line 410, in run
+    result = empower_games_claimer(self.bricklayer, promotion.url, page, pattern="get")
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/bricklayer/game.py", line 170, in empower_games_claimer
+    return claimer.get_free_game(page_link=page_link, page=page, pattern=pattern)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/bricklayer/game.py", line 157, in get_free_game
+    self.cart_handle_payment(page)  # mode: get
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/bricklayer/core.py", line 549, in cart_handle_payment
+    self._duel_with_challenge(page)  # cart_handle_payment
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/bricklayer/core.py", line 464, in _duel_with_challenge
+    resp = self.armor.anti_hcaptcha(page, window=window)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/bricklayer/core.py", line 251, in anti_hcaptcha
+    self.get_label(frame_challenge)
+  File "/home/runner/work/Epc-Game-/Epc-Game-/epic/src/services/bricklayer/core.py", line 81, in get_label
+    self.prompt = frame_challenge.locator("//h2[@class='prompt-text']").text_content(
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 15059, in text_content
+    self._sync(self._impl_obj.text_content(timeout=timeout))
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 104, in _sync
+    return task.result()
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_locator.py", line 526, in text_content
+    return await self._frame.text_content(
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 598, in text_content
+    return await self._channel.send("textContent", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 43, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 396, in wrap_api_call
+    return await cb()
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 78, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+  waiting for frame "xpath=//div[@id='webPurchaseContainer']//iframe"
+  selector resolved to visible <iframe class="" src="/purchase?highlightColor=0078f2&of…></iframe>
+  waiting for frame "xpath=//iframe[contains(@title, 'content of the hCaptcha')]"
+  selector resolved to hidden <iframe scrolling="no" frameborder="0" aria-hidden="true…></iframe>
+waiting for selector "//div[@id='webPurchaseContainer']//iframe >> internal:control=enter-frame >> //iframe[contains(@title, 'content of the hCaptcha')] >> internal:control=enter-frame >> //h2[@class='prompt-text']"
+============================================================
