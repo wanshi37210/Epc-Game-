@@ -720,3 +720,13 @@ playwright._impl._api_types.Error: Target closed
   selector resolved to hidden <iframe scrolling="no" frameborder="0" aria-hidden="true…></iframe>
 waiting for selector "//div[@id='webPurchaseContainer']//iframe >> internal:control=enter-frame >> //iframe[contains(@title, 'content of the hCaptcha')] >> internal:control=enter-frame >> //h2[@class='prompt-text']"
 ============================================================
+2022-11-12 07:30:16.665 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-11-12 07:30:17.576 | INFO     | services.bricklayer.core:refresh_ctx_cookies:673 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-12 07:30:17.636 | INFO     | services.bricklayer.core:login:481 - >> MATCH [CookieManager] 刷新令牌
+2022-11-12 07:30:27.090 | INFO     | services.bricklayer.core:login:494 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-12 07:30:29.176 | INFO     | services.bricklayer.core:load_ctx_cookies:641 - >> LOAD [CookieManager] Load context cookie
+2022-11-12 07:30:29.182 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-11-12 07:30:29.380 | DEBUG    | services.deploy:preload:391 - >> Checkout [GameClaimer] Shadow Tactics:Blades of the Shogun - state=待认领 link=https://store.epicgames.com/zh-CN/p/shadow-tactics
+2022-11-12 07:30:29.381 | DEBUG    | services.deploy:preload:391 - >> Checkout [GameClaimer] Alba - A Wildlife Adventure - state=待认领 link=https://store.epicgames.com/zh-CN/p/alba-a-wildlife-adventure-93736a
+2022-11-12 07:30:35.992 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Shadow Tactics:Blades of the Shogun - state=已在库中 link=https://store.epicgames.com/zh-CN/p/shadow-tactics
+2022-11-12 07:30:37.950 | SUCCESS  | services.deploy:_pusher_wrapper:202 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
