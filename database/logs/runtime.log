@@ -730,3 +730,179 @@ waiting for selector "//div[@id='webPurchaseContainer']//iframe >> internal:cont
 2022-11-12 07:30:29.381 | DEBUG    | services.deploy:preload:391 - >> Checkout [GameClaimer] Alba - A Wildlife Adventure - state=待认领 link=https://store.epicgames.com/zh-CN/p/alba-a-wildlife-adventure-93736a
 2022-11-12 07:30:35.992 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Shadow Tactics:Blades of the Shogun - state=已在库中 link=https://store.epicgames.com/zh-CN/p/shadow-tactics
 2022-11-12 07:30:37.950 | SUCCESS  | services.deploy:_pusher_wrapper:202 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2022-11-18 07:29:20.893 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-11-18 07:29:22.925 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-18 07:29:22.974 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-11-18 07:29:25.828 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-18 07:29:27.598 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-11-18 07:29:27.604 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-11-18 07:29:28.310 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Dark Deity - state=待认领 link=https://store.epicgames.com/zh-CN/p/dark-deity-0b08d1
+2022-11-18 07:29:28.310 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Evil Dead: The Game - state=待认领 link=https://store.epicgames.com/zh-CN/p/evil-dead-the-game
+2022-11-18 07:29:28.310 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Epic Cheerleader 包 - state=待认领 link=https://store.epicgames.com/zh-CN/p/rumbleverse
+2022-11-18 07:29:34.035 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Dark Deity - state=获取 link=https://store.epicgames.com/zh-CN/p/dark-deity-0b08d1
+2022-11-18 07:29:34.616 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-18 07:29:34.648 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-11-18 07:29:45.126 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-18 07:29:45.166 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-11-18 07:29:45.167 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:29:45.987 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:29:47.879 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.89s
+2022-11-18 07:29:47.882 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading house.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/house.onnx
+2022-11-18 07:29:50.349 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.61s
+2022-11-18 07:29:50.366 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:29:52.399 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-11-18 07:29:52.399 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:29:53.000 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:29:54.467 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.47s
+2022-11-18 07:29:56.316 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.01s
+2022-11-18 07:29:56.342 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-11-18 07:29:56.342 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:29:58.580 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-11-18 07:30:05.088 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Dark Deity - state=获取 link=https://store.epicgames.com/zh-CN/p/dark-deity-0b08d1
+2022-11-18 07:30:05.557 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-18 07:30:05.557 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-11-18 07:30:14.786 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-18 07:30:14.813 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-11-18 07:30:14.813 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:30:15.448 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:30:16.865 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.42s
+2022-11-18 07:30:18.931 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.01s
+2022-11-18 07:30:18.949 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:30:20.973 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-11-18 07:30:20.973 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:30:21.510 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:30:23.108 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.6s
+2022-11-18 07:30:24.863 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.01s
+2022-11-18 07:30:24.886 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-11-18 07:30:24.886 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:30:27.186 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-11-18 07:30:32.805 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Dark Deity - state=获取 link=https://store.epicgames.com/zh-CN/p/dark-deity-0b08d1
+2022-11-18 07:30:33.242 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-18 07:30:33.242 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-11-18 07:30:42.390 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-18 07:30:42.413 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-11-18 07:30:42.414 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:30:42.963 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:30:44.375 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.41s
+2022-11-18 07:30:45.931 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.01s
+2022-11-18 07:30:45.945 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:30:47.976 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-11-18 07:30:47.976 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:30:48.493 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:30:49.868 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.38s
+2022-11-18 07:30:51.579 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.01s
+2022-11-18 07:30:51.607 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-11-18 07:30:51.608 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:30:53.810 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-11-18 07:31:00.491 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Evil Dead: The Game - state=获取 link=https://store.epicgames.com/zh-CN/p/evil-dead-the-game
+2022-11-18 07:31:01.151 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-18 07:31:01.166 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-11-18 07:31:10.351 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-18 07:31:10.376 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「纸杯蛋糕」
+2022-11-18 07:31:10.376 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:31:10.960 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:31:12.344 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.38s
+2022-11-18 07:31:12.548 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading cupcake.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/cupcake.onnx
+2022-11-18 07:31:15.747 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - cupcake(ResNet)_model: 1.28s
+2022-11-18 07:31:15.763 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:31:17.786 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「纸杯蛋糕」
+2022-11-18 07:31:17.787 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:31:18.348 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:31:19.850 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.5s
+2022-11-18 07:31:21.981 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - cupcake(ResNet)_model: 0.61s
+2022-11-18 07:31:22.004 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-11-18 07:31:22.004 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:31:24.333 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-11-18 07:31:30.671 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Evil Dead: The Game - state=获取 link=https://store.epicgames.com/zh-CN/p/evil-dead-the-game
+2022-11-18 07:31:31.450 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-18 07:31:31.450 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-11-18 07:31:40.837 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-18 07:31:40.864 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「纸杯蛋糕」
+2022-11-18 07:31:40.865 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:31:41.437 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:31:42.818 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.38s
+2022-11-18 07:31:44.981 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - cupcake(ResNet)_model: 0.62s
+2022-11-18 07:31:45.000 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:31:47.022 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「纸杯蛋糕」
+2022-11-18 07:31:47.022 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:31:47.597 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:31:48.996 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.4s
+2022-11-18 07:31:51.444 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - cupcake(ResNet)_model: 0.62s
+2022-11-18 07:31:51.469 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-11-18 07:31:51.470 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:31:53.710 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-11-18 07:32:00.515 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Evil Dead: The Game - state=获取 link=https://store.epicgames.com/zh-CN/p/evil-dead-the-game
+2022-11-18 07:32:00.995 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-18 07:32:00.995 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-11-18 07:32:10.251 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-18 07:32:10.276 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「纸杯蛋糕」
+2022-11-18 07:32:10.277 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:32:10.837 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:32:12.545 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.71s
+2022-11-18 07:32:15.179 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - cupcake(ResNet)_model: 0.62s
+2022-11-18 07:32:15.194 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:32:17.215 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「纸杯蛋糕」
+2022-11-18 07:32:17.215 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:32:17.761 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:32:19.135 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.37s
+2022-11-18 07:32:21.929 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - cupcake(ResNet)_model: 0.6s
+2022-11-18 07:32:21.952 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-11-18 07:32:21.952 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:32:24.273 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-11-18 07:32:30.511 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Epic Cheerleader 包 - state=获取 link=https://store.epicgames.com/zh-CN/p/rumbleverse
+2022-11-18 07:32:31.136 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-18 07:32:31.453 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-11-18 07:32:40.651 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-18 07:32:40.720 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「一杯咖啡」
+2022-11-18 07:32:40.721 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:32:41.280 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:32:42.772 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.49s
+2022-11-18 07:32:42.775 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading cup_of_coffee.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/cup_of_coffee.onnx
+2022-11-18 07:32:45.040 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - cup_of_coffee(ResNet)_model: 0.73s
+2022-11-18 07:32:45.056 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:32:47.078 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「一杯咖啡」
+2022-11-18 07:32:47.079 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:32:47.657 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:32:49.068 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.41s
+2022-11-18 07:32:50.609 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - cup_of_coffee(ResNet)_model: 0.01s
+2022-11-18 07:32:50.632 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-11-18 07:32:50.632 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:32:52.866 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-11-18 07:32:59.071 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Epic Cheerleader 包 - state=获取 link=https://store.epicgames.com/zh-CN/p/rumbleverse
+2022-11-18 07:32:59.567 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-18 07:32:59.567 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-11-18 07:33:08.873 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-18 07:33:08.902 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-11-18 07:33:08.902 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:33:09.445 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:33:10.809 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.36s
+2022-11-18 07:33:12.533 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.02s
+2022-11-18 07:33:12.548 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:33:14.570 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-11-18 07:33:14.571 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:33:15.112 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:33:16.475 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.36s
+2022-11-18 07:33:18.191 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.01s
+2022-11-18 07:33:18.213 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-11-18 07:33:18.213 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:33:20.443 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-11-18 07:33:26.646 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Epic Cheerleader 包 - state=获取 link=https://store.epicgames.com/zh-CN/p/rumbleverse
+2022-11-18 07:33:27.095 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-18 07:33:27.095 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-11-18 07:33:36.404 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-18 07:33:36.447 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「危险海域」
+2022-11-18 07:33:36.447 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:33:36.971 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:33:38.511 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.54s
+2022-11-18 07:33:38.513 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading dangerous_sea.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/dangerous_sea.onnx
+2022-11-18 07:33:41.175 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - dangerous_sea(ResNet)_model: 0.67s
+2022-11-18 07:33:41.188 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:33:43.209 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「危险海域」
+2022-11-18 07:33:43.209 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-11-18 07:33:43.814 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-11-18 07:33:45.400 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.59s
+2022-11-18 07:33:47.228 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - dangerous_sea(ResNet)_model: 0.01s
+2022-11-18 07:33:47.279 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-11-18 07:33:47.280 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-18 07:33:49.507 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-11-18 07:33:58.740 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
