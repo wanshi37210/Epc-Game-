@@ -906,3 +906,60 @@ waiting for selector "//div[@id='webPurchaseContainer']//iframe >> internal:cont
 2022-11-18 07:33:47.280 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2022-11-18 07:33:49.507 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
 2022-11-18 07:33:58.740 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2022-12-16 07:24:52.269 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-12-16 07:24:54.351 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-12-16 07:24:54.414 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-12-16 07:24:58.184 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2022-12-16 07:25:00.631 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-16 07:25:00.645 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-12-16 07:25:00.934 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Bloons TD 6 - state=待认领 link=https://store.epicgames.com/zh-CN/p/bloons-td-6-bf95a0
+2022-12-16 07:25:10.443 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Bloons TD 6 - state=获取 link=https://store.epicgames.com/zh-CN/p/bloons-td-6-bf95a0
+2022-12-16 07:25:11.099 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-16 07:25:11.135 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-16 07:25:23.681 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-16 07:25:23.845 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「菠萝」
+2022-12-16 07:25:23.846 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 07:25:25.884 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 07:25:27.569 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.68s
+2022-12-16 07:25:27.890 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading pineapple.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/pineapple.onnx
+2022-12-16 07:25:31.384 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - pineapple(ResNet)_model: 1.85s
+2022-12-16 07:25:31.406 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 07:25:33.453 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「菠萝」
+2022-12-16 07:25:33.453 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 07:25:34.526 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 07:25:35.800 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.27s
+2022-12-16 07:25:38.402 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - pineapple(ResNet)_model: 0.77s
+2022-12-16 07:25:38.447 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-16 07:25:38.448 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 07:25:40.732 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-16 07:25:48.455 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Bloons TD 6 - state=获取 link=https://store.epicgames.com/zh-CN/p/bloons-td-6-bf95a0
+2022-12-16 07:25:49.032 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-16 07:25:49.033 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-16 07:25:59.525 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-16 07:25:59.592 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「菠萝」
+2022-12-16 07:25:59.593 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 07:26:00.698 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 07:26:02.182 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.48s
+2022-12-16 07:26:05.011 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - pineapple(ResNet)_model: 0.93s
+2022-12-16 07:26:05.041 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 07:26:17.056 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-16 07:26:24.001 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Bloons TD 6 - state=获取 link=https://store.epicgames.com/zh-CN/p/bloons-td-6-bf95a0
+2022-12-16 07:26:24.574 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-16 07:26:24.574 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-16 07:26:34.276 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-16 07:26:34.325 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「树上苹果」
+2022-12-16 07:26:34.326 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 07:26:35.424 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 07:26:36.668 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.24s
+2022-12-16 07:26:36.756 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading apple_on_a_tree.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/apple_on_a_tree.onnx
+2022-12-16 07:26:39.989 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - apple_on_a_tree(ResNet)_model: 1.32s
+2022-12-16 07:26:40.016 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 07:26:42.050 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「树上苹果」
+2022-12-16 07:26:42.051 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 07:26:43.110 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 07:26:44.400 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.29s
+2022-12-16 07:26:46.878 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - apple_on_a_tree(ResNet)_model: 0.77s
+2022-12-16 07:26:46.919 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-16 07:26:46.920 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 07:26:49.260 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-16 07:27:00.924 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
