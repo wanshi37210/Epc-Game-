@@ -1341,3 +1341,121 @@ waiting for selector "//div[@id='webPurchaseContainer']//iframe >> internal:cont
 2022-12-30 07:28:02.773 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2022-12-30 07:28:05.036 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
 2022-12-30 07:28:16.453 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2022-12-31 07:22:44.808 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-12-31 07:22:45.931 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-12-31 07:22:45.984 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-12-31 07:22:53.623 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2022-12-31 07:23:00.346 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-31 07:23:00.353 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-12-31 07:23:00.529 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Eximius: Seize the Frontline - state=待认领 link=https://store.epicgames.com/zh-CN/p/eximius-seize-the-frontline
+2022-12-31 07:23:00.530 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Dishonored - Definitive Edition - state=待认领 link=https://store.epicgames.com/zh-CN/p/dishonored-definitive-edition
+2022-12-31 07:23:05.705 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Eximius: Seize the Frontline - state=获取 link=https://store.epicgames.com/zh-CN/p/eximius-seize-the-frontline
+2022-12-31 07:23:06.170 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-31 07:23:06.190 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-31 07:23:15.897 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-31 07:23:15.927 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:23:15.927 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:23:16.634 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:23:17.667 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.03s
+2022-12-31 07:23:17.872 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading hedgehog_on_rocks.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/hedgehog_on_rocks.onnx
+2022-12-31 07:23:20.236 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.99s
+2022-12-31 07:23:20.253 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:23:22.288 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:23:22.288 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:23:22.879 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:23:23.884 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.01s
+2022-12-31 07:23:26.345 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.61s
+2022-12-31 07:23:26.379 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-31 07:23:26.380 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:23:28.708 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-31 07:23:34.580 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Eximius: Seize the Frontline - state=获取 link=https://store.epicgames.com/zh-CN/p/eximius-seize-the-frontline
+2022-12-31 07:23:34.931 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-31 07:23:34.931 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-31 07:23:44.187 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-31 07:23:44.216 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:23:44.216 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:23:44.903 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:23:45.901 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.0s
+2022-12-31 07:23:48.239 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.62s
+2022-12-31 07:23:48.258 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:23:50.281 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:23:50.281 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:23:50.954 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:23:51.957 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.0s
+2022-12-31 07:23:54.608 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.62s
+2022-12-31 07:23:54.641 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-31 07:23:54.641 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:23:56.976 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-31 07:24:02.642 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Eximius: Seize the Frontline - state=获取 link=https://store.epicgames.com/zh-CN/p/eximius-seize-the-frontline
+2022-12-31 07:24:03.119 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-31 07:24:03.119 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-31 07:24:12.286 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-31 07:24:12.316 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:24:12.316 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:24:12.952 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:24:13.930 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.98s
+2022-12-31 07:24:16.240 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.61s
+2022-12-31 07:24:16.264 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:24:18.287 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:24:18.288 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:24:18.904 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:24:19.895 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.99s
+2022-12-31 07:24:22.510 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.62s
+2022-12-31 07:24:22.542 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-31 07:24:22.542 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:24:24.772 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-31 07:24:30.840 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Dishonored - Definitive Edition - state=获取 link=https://store.epicgames.com/zh-CN/p/dishonored-definitive-edition
+2022-12-31 07:24:31.162 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-31 07:24:31.166 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-31 07:24:40.318 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-31 07:24:40.346 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:24:40.346 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:24:40.978 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:24:42.566 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.59s
+2022-12-31 07:24:44.760 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.61s
+2022-12-31 07:24:44.778 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:24:46.803 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:24:46.804 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:24:47.616 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:24:48.751 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.13s
+2022-12-31 07:24:51.088 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.63s
+2022-12-31 07:24:51.121 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-31 07:24:51.122 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:24:53.359 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-31 07:24:58.935 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Dishonored - Definitive Edition - state=获取 link=https://store.epicgames.com/zh-CN/p/dishonored-definitive-edition
+2022-12-31 07:24:59.401 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-31 07:24:59.402 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-31 07:25:08.763 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-31 07:25:08.794 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:25:08.794 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:25:09.543 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:25:10.538 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.99s
+2022-12-31 07:25:13.094 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.65s
+2022-12-31 07:25:13.113 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:25:15.146 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:25:15.146 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:25:15.821 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:25:16.788 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.97s
+2022-12-31 07:25:18.974 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.63s
+2022-12-31 07:25:19.015 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-31 07:25:19.016 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:25:21.283 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-31 07:25:27.069 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Dishonored - Definitive Edition - state=获取 link=https://store.epicgames.com/zh-CN/p/dishonored-definitive-edition
+2022-12-31 07:25:27.483 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-31 07:25:27.483 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-31 07:25:36.706 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-31 07:25:36.736 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:25:36.736 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:25:37.482 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:25:38.437 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.95s
+2022-12-31 07:25:40.987 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.59s
+2022-12-31 07:25:41.004 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:25:43.044 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-31 07:25:43.044 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-31 07:25:43.835 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-31 07:25:44.802 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.97s
+2022-12-31 07:25:47.691 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.63s
+2022-12-31 07:25:47.730 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-31 07:25:47.730 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-31 07:25:50.066 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-31 07:25:59.946 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
