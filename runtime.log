@@ -1591,3 +1591,110 @@ waiting for selector "//div[@id='webPurchaseContainer']//iframe >> internal:cont
 2023-01-07 07:24:59.573 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2023-01-07 07:25:02.149 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
 2023-01-07 07:25:15.238 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2023-01-13 07:25:46.598 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-01-13 07:25:49.952 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-01-13 07:25:50.021 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-01-13 07:25:53.134 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-01-13 07:25:55.803 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-01-13 07:25:55.810 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-01-13 07:25:56.323 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Gamedec - state=待认领 link=https://store.epicgames.com/zh-CN/p/gamedec
+2023-01-13 07:25:56.324 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] First Class Trouble - state=待认领 link=https://store.epicgames.com/zh-CN/p/first-class-trouble
+2023-01-13 07:25:56.324 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Divine Knockout（DKO） - state=待认领 link=https://store.epicgames.com/zh-CN/p/divine-knockout
+2023-01-13 07:26:06.478 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Gamedec - state=获取 link=https://store.epicgames.com/zh-CN/p/gamedec
+2023-01-13 07:26:07.058 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-13 07:26:07.087 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-13 07:26:18.093 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-13 07:26:18.207 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「海獭」
+2023-01-13 07:26:18.208 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-13 07:26:19.719 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-13 07:26:21.015 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.3s
+2023-01-13 07:26:21.332 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading sea_otter.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/sea_otter.onnx
+2023-01-13 07:26:24.389 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sea_otter(ResNet)_model: 1.2s
+2023-01-13 07:26:24.412 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-13 07:26:26.443 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「海獭」
+2023-01-13 07:26:26.443 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-13 07:26:27.465 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-13 07:26:28.457 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.99s
+2023-01-13 07:26:31.191 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sea_otter(ResNet)_model: 0.38s
+2023-01-13 07:26:31.247 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-13 07:26:31.248 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-13 07:26:33.611 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-13 07:26:42.397 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Gamedec - state=获取 link=https://store.epicgames.com/zh-CN/p/gamedec
+2023-01-13 07:26:42.945 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-13 07:26:42.946 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-13 07:26:52.963 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-13 07:26:53.053 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-13 07:26:53.054 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-13 07:26:54.179 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-13 07:26:55.272 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.09s
+2023-01-13 07:26:55.275 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading sunflower.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/sunflower.onnx
+2023-01-13 07:26:57.920 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.52s
+2023-01-13 07:26:57.963 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-13 07:27:09.972 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-13 07:27:18.082 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Gamedec - state=获取 link=https://store.epicgames.com/zh-CN/p/gamedec
+2023-01-13 07:27:18.711 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-13 07:27:18.711 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-13 07:27:28.639 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-13 07:27:28.686 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「海獭」
+2023-01-13 07:27:28.686 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-13 07:27:29.823 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-13 07:27:30.932 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.11s
+2023-01-13 07:27:33.469 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sea_otter(ResNet)_model: 0.1s
+2023-01-13 07:27:33.500 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-13 07:27:35.534 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「海獭」
+2023-01-13 07:27:35.535 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-13 07:27:36.516 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-13 07:27:37.609 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.09s
+2023-01-13 07:27:39.694 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sea_otter(ResNet)_model: 0.09s
+2023-01-13 07:27:39.740 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-13 07:27:39.741 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-13 07:27:42.182 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-13 07:27:49.889 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] First Class Trouble - state=获取 link=https://store.epicgames.com/zh-CN/p/first-class-trouble
+2023-01-13 07:27:50.613 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-13 07:27:50.631 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-13 07:28:00.492 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-13 07:28:00.545 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-13 07:28:00.546 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-13 07:28:01.687 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-13 07:28:02.817 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.13s
+2023-01-13 07:28:04.536 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.01s
+2023-01-13 07:28:04.559 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-13 07:28:06.591 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-13 07:28:06.591 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-13 07:28:07.670 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-13 07:28:08.777 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.11s
+2023-01-13 07:28:10.287 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.01s
+2023-01-13 07:28:10.327 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-13 07:28:10.327 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-13 07:28:12.678 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-13 07:28:20.413 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] First Class Trouble - state=获取 link=https://store.epicgames.com/zh-CN/p/first-class-trouble
+2023-01-13 07:28:20.929 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-13 07:28:20.929 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-13 07:28:30.736 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-13 07:28:30.783 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-13 07:28:30.783 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-13 07:28:31.937 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-13 07:28:33.142 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.2s
+2023-01-13 07:28:35.199 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.3s
+2023-01-13 07:28:35.233 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-13 07:28:37.274 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-13 07:28:37.275 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-13 07:28:38.147 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-13 07:28:39.229 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.08s
+2023-01-13 07:28:40.883 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.01s
+2023-01-13 07:28:40.920 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-13 07:28:40.920 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-13 07:28:43.199 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-13 07:28:50.565 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] First Class Trouble - state=获取 link=https://store.epicgames.com/zh-CN/p/first-class-trouble
+2023-01-13 07:28:51.296 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-13 07:28:51.296 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-13 07:29:00.931 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-13 07:29:00.974 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-13 07:29:00.975 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-13 07:29:01.964 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-13 07:29:03.009 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.04s
+2023-01-13 07:29:05.125 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.1s
+2023-01-13 07:29:05.150 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-13 07:29:17.167 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-13 07:29:23.746 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Divine Knockout（DKO） - state=立即购买 link=https://store.epicgames.com/zh-CN/p/divine-knockout
+2023-01-13 07:29:33.667 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
