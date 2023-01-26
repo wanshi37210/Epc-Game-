@@ -1913,3 +1913,116 @@ waiting for selector "//div[@id='webPurchaseContainer']//iframe >> internal:cont
 2023-01-21 07:25:20.553 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2023-01-21 07:25:22.853 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
 2023-01-21 07:25:31.471 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2023-01-27 07:24:39.767 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-01-27 07:24:41.339 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-01-27 07:24:41.400 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-01-27 07:24:43.445 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-01-27 07:24:45.182 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-01-27 07:24:45.188 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-01-27 07:24:45.579 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Adios - state=待认领 link=https://store.epicgames.com/zh-CN/p/adios-b378b4
+2023-01-27 07:24:45.580 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Hell is Others - state=待认领 link=https://store.epicgames.com/zh-CN/p/hell-is-others-789262
+2023-01-27 07:24:50.109 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Adios - state=获取 link=https://store.epicgames.com/zh-CN/p/adios-b378b4
+2023-01-27 07:24:50.993 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-27 07:24:51.014 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-27 07:25:01.357 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-27 07:25:01.408 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「海獭」
+2023-01-27 07:25:01.408 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-27 07:25:02.417 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-27 07:25:03.649 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.23s
+2023-01-27 07:25:03.652 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading sea_otter.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/sea_otter.onnx
+2023-01-27 07:25:06.661 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sea_otter(ResNet)_model: 0.77s
+2023-01-27 07:25:06.678 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-27 07:25:08.703 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「海獭」
+2023-01-27 07:25:08.704 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-27 07:25:09.437 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-27 07:25:10.438 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.0s
+2023-01-27 07:25:12.621 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sea_otter(ResNet)_model: 0.15s
+2023-01-27 07:25:12.652 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-27 07:25:12.653 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-27 07:25:15.022 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-27 07:25:21.383 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Adios - state=获取 link=https://store.epicgames.com/zh-CN/p/adios-b378b4
+2023-01-27 07:25:21.756 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-27 07:25:21.756 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-27 07:25:31.015 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-27 07:25:31.049 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「森林中熊猫」
+2023-01-27 07:25:31.049 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-27 07:25:31.770 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-27 07:25:32.774 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.0s
+2023-01-27 07:25:32.778 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading panda_in_a_forest.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/panda_in_a_forest.onnx
+2023-01-27 07:25:35.021 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - panda_in_a_forest(ResNet)_model: 0.61s
+2023-01-27 07:25:35.039 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-27 07:25:37.064 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「森林中熊猫」
+2023-01-27 07:25:37.064 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-27 07:25:37.788 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-27 07:25:38.788 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.0s
+2023-01-27 07:25:40.451 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - panda_in_a_forest(ResNet)_model: 0.08s
+2023-01-27 07:25:40.482 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-27 07:25:40.482 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-27 07:25:42.714 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-27 07:25:48.461 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Adios - state=获取 link=https://store.epicgames.com/zh-CN/p/adios-b378b4
+2023-01-27 07:25:48.845 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-27 07:25:48.845 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-27 07:25:58.226 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-27 07:25:58.261 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-27 07:25:58.262 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-27 07:25:58.987 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-27 07:26:00.065 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.08s
+2023-01-27 07:26:00.068 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading sunflower.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/sunflower.onnx
+2023-01-27 07:26:02.088 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.29s
+2023-01-27 07:26:02.110 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-27 07:26:04.132 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-27 07:26:04.132 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-27 07:26:04.803 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-27 07:26:05.980 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.18s
+2023-01-27 07:26:07.715 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.01s
+2023-01-27 07:26:07.738 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-27 07:26:07.738 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-27 07:26:09.984 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-27 07:26:16.813 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Hell is Others - state=获取 link=https://store.epicgames.com/zh-CN/p/hell-is-others-789262
+2023-01-27 07:26:17.227 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-27 07:26:17.231 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-27 07:26:26.431 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-27 07:26:26.461 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-27 07:26:26.461 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-27 07:26:27.077 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-27 07:26:28.226 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.15s
+2023-01-27 07:26:29.918 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.01s
+2023-01-27 07:26:29.936 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-27 07:26:41.942 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-27 07:26:48.174 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Hell is Others - state=获取 link=https://store.epicgames.com/zh-CN/p/hell-is-others-789262
+2023-01-27 07:26:48.577 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-27 07:26:48.577 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-27 07:26:57.808 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-27 07:26:57.837 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「森林中熊猫」
+2023-01-27 07:26:57.837 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-27 07:26:58.514 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-27 07:26:59.527 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.01s
+2023-01-27 07:27:01.188 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - panda_in_a_forest(ResNet)_model: 0.07s
+2023-01-27 07:27:01.213 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-27 07:27:03.238 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「森林中熊猫」
+2023-01-27 07:27:03.238 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-27 07:27:04.007 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-27 07:27:04.959 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.95s
+2023-01-27 07:27:06.747 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - panda_in_a_forest(ResNet)_model: 0.21s
+2023-01-27 07:27:06.776 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-27 07:27:06.776 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-27 07:27:08.993 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-27 07:27:15.375 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Hell is Others - state=获取 link=https://store.epicgames.com/zh-CN/p/hell-is-others-789262
+2023-01-27 07:27:15.747 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-27 07:27:15.748 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-27 07:27:25.119 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-27 07:27:25.149 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-27 07:27:25.149 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-27 07:27:25.774 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-27 07:27:26.746 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.97s
+2023-01-27 07:27:28.766 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.01s
+2023-01-27 07:27:28.784 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-27 07:27:30.809 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-27 07:27:30.810 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-27 07:27:31.454 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-27 07:27:32.448 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.99s
+2023-01-27 07:27:34.345 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.14s
+2023-01-27 07:27:34.383 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-27 07:27:34.384 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-27 07:27:36.595 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-27 07:27:46.025 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
