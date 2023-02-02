@@ -2146,3 +2146,95 @@ waiting for selector "//div[@id='webPurchaseContainer']//iframe >> internal:cont
 2023-01-28 07:27:13.540 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2023-01-28 07:27:15.914 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
 2023-01-28 07:27:28.768 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2023-02-03 07:24:58.758 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-02-03 07:24:59.796 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-02-03 07:24:59.847 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-03 07:25:01.532 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-02-03 07:25:03.374 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-02-03 07:25:03.381 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-02-03 07:25:03.744 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] City of Gangsters - state=待认领 link=https://store.epicgames.com/zh-CN/p/city-of-gangsters-6c2974
+2023-02-03 07:25:03.745 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Dishonored®: Death of the Outsider™ - state=待认领 link=https://store.epicgames.com/zh-CN/p/dishonored-death-of-the-outsider
+2023-02-03 07:25:12.674 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] City of Gangsters - state=获取 link=https://store.epicgames.com/zh-CN/p/city-of-gangsters-6c2974
+2023-02-03 07:25:13.125 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-02-03 07:25:13.129 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-02-03 07:25:22.827 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-02-03 07:25:22.904 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「田野中包含向日葵」
+2023-02-03 07:25:22.904 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-03 07:25:23.876 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-03 07:25:24.955 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.08s
+2023-02-03 07:25:25.638 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-02-03 07:25:33.116 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] City of Gangsters - state=获取 link=https://store.epicgames.com/zh-CN/p/city-of-gangsters-6c2974
+2023-02-03 07:25:33.559 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-02-03 07:25:33.559 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-02-03 07:25:42.669 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-02-03 07:25:42.705 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「钢琴」
+2023-02-03 07:25:42.705 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-03 07:25:43.317 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-03 07:25:44.155 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.84s
+2023-02-03 07:25:44.158 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading piano.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/piano.onnx
+2023-02-03 07:25:46.214 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - piano(ResNet)_model: 0.44s
+2023-02-03 07:25:46.233 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-03 07:25:48.256 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「钢琴」
+2023-02-03 07:25:48.256 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-03 07:25:48.807 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-03 07:25:49.679 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.87s
+2023-02-03 07:25:51.341 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - piano(ResNet)_model: 0.01s
+2023-02-03 07:25:51.399 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-03 07:25:51.399 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-03 07:25:53.790 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-02-03 07:26:00.398 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] City of Gangsters - state=获取 link=https://store.epicgames.com/zh-CN/p/city-of-gangsters-6c2974
+2023-02-03 07:26:00.798 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-02-03 07:26:00.799 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-02-03 07:26:10.019 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-02-03 07:26:10.047 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「田野中包含向日葵」
+2023-02-03 07:26:10.048 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-03 07:26:10.663 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-03 07:26:11.560 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.9s
+2023-02-03 07:26:12.111 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-02-03 07:26:17.856 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Dishonored®: Death of the Outsider™ - state=获取 link=https://store.epicgames.com/zh-CN/p/dishonored-death-of-the-outsider
+2023-02-03 07:26:18.303 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-02-03 07:26:18.318 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-02-03 07:26:27.595 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-02-03 07:26:27.624 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「田野中包含向日葵」
+2023-02-03 07:26:27.624 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-03 07:26:28.230 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-03 07:26:29.115 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.88s
+2023-02-03 07:26:29.707 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-02-03 07:26:34.472 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Dishonored®: Death of the Outsider™ - state=获取 link=https://store.epicgames.com/zh-CN/p/dishonored-death-of-the-outsider
+2023-02-03 07:26:35.012 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-02-03 07:26:35.012 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-02-03 07:26:44.218 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-02-03 07:26:44.246 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「花园中熊猫」
+2023-02-03 07:26:44.246 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-03 07:26:44.884 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-03 07:26:45.803 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.92s
+2023-02-03 07:26:46.008 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading panda_in_a_garden.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/panda_in_a_garden.onnx
+2023-02-03 07:26:48.054 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - panda_in_a_garden(ResNet)_model: 0.48s
+2023-02-03 07:26:48.070 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-03 07:26:50.091 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「花园中熊猫」
+2023-02-03 07:26:50.091 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-03 07:26:50.713 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-03 07:26:51.610 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.9s
+2023-02-03 07:26:53.438 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - panda_in_a_garden(ResNet)_model: 0.28s
+2023-02-03 07:26:53.467 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-03 07:26:53.467 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-03 07:26:55.701 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-02-03 07:27:00.525 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Dishonored®: Death of the Outsider™ - state=获取 link=https://store.epicgames.com/zh-CN/p/dishonored-death-of-the-outsider
+2023-02-03 07:27:00.932 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-02-03 07:27:00.933 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-02-03 07:27:10.094 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-02-03 07:27:10.128 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「钢琴」
+2023-02-03 07:27:10.128 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-03 07:27:10.824 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-03 07:27:11.674 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.85s
+2023-02-03 07:27:13.330 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - piano(ResNet)_model: 0.02s
+2023-02-03 07:27:13.351 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-03 07:27:15.385 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「钢琴」
+2023-02-03 07:27:15.386 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-03 07:27:16.067 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-03 07:27:16.941 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.87s
+2023-02-03 07:27:18.357 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - piano(ResNet)_model: 0.01s
+2023-02-03 07:27:18.383 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-03 07:27:18.383 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-03 07:27:20.784 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-02-03 07:27:30.292 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
