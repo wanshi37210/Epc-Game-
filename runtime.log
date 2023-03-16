@@ -2722,3 +2722,67 @@ waiting for selector "//div[@id='webPurchaseContainer']//iframe >> internal:cont
 2023-03-11 07:23:52.379 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
 2023-03-11 07:23:54.282 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
 2023-03-11 07:23:54.288 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-03-17 07:24:11.941 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-03-17 07:24:13.654 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-03-17 07:24:13.721 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-03-17 07:24:16.620 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-03-17 07:24:19.126 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-03-17 07:24:19.134 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-03-17 07:24:19.532 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Warhammer 40,000: Gladius - Relics of War - state=待认领 link=https://store.epicgames.com/zh-CN/p/warhammer-40000-gladius-relics-of-war
+2023-03-17 07:24:27.860 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Warhammer 40,000: Gladius - Relics of War - state=获取 link=https://store.epicgames.com/zh-CN/p/warhammer-40000-gladius-relics-of-war
+2023-03-17 07:24:28.470 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-03-17 07:24:28.501 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-03-17 07:24:39.850 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-03-17 07:24:39.918 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2023-03-17 07:24:39.919 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-03-17 07:24:41.136 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-03-17 07:24:42.992 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.86s
+2023-03-17 07:24:42.996 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading bunny.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/bunny.onnx
+2023-03-17 07:24:45.785 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - bunny(ResNet)_model: 0.58s
+2023-03-17 07:24:45.809 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-03-17 07:24:47.851 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2023-03-17 07:24:47.851 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-03-17 07:24:48.920 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-03-17 07:24:50.326 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.41s
+2023-03-17 07:24:52.379 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - bunny(ResNet)_model: 0.01s
+2023-03-17 07:24:52.457 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-03-17 07:24:52.457 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-03-17 07:24:54.894 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-03-17 07:25:03.267 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Warhammer 40,000: Gladius - Relics of War - state=获取 link=https://store.epicgames.com/zh-CN/p/warhammer-40000-gladius-relics-of-war
+2023-03-17 07:25:03.842 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-03-17 07:25:03.842 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-03-17 07:25:13.390 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-03-17 07:25:13.457 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「闹钟」
+2023-03-17 07:25:13.457 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-03-17 07:25:14.774 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-03-17 07:25:16.069 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.29s
+2023-03-17 07:25:16.073 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading alarm_clock.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/alarm_clock.onnx
+2023-03-17 07:25:18.608 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - alarm_clock(ResNet)_model: 0.46s
+2023-03-17 07:25:18.634 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-03-17 07:25:20.665 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「闹钟」
+2023-03-17 07:25:20.665 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-03-17 07:25:21.683 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-03-17 07:25:23.031 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.35s
+2023-03-17 07:25:25.539 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - alarm_clock(ResNet)_model: 0.01s
+2023-03-17 07:25:25.843 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-03-17 07:25:25.844 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-03-17 07:25:28.220 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-03-17 07:25:36.187 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Warhammer 40,000: Gladius - Relics of War - state=获取 link=https://store.epicgames.com/zh-CN/p/warhammer-40000-gladius-relics-of-war
+2023-03-17 07:25:36.994 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-03-17 07:25:36.994 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-03-17 07:25:46.624 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-03-17 07:25:46.677 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2023-03-17 07:25:46.678 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-03-17 07:25:47.748 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-03-17 07:25:49.064 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.32s
+2023-03-17 07:25:50.575 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - bunny(ResNet)_model: 0.01s
+2023-03-17 07:25:50.598 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-03-17 07:25:52.637 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2023-03-17 07:25:52.637 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-03-17 07:25:53.674 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-03-17 07:25:55.114 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.44s
+2023-03-17 07:25:57.298 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - bunny(ResNet)_model: 0.02s
+2023-03-17 07:25:57.369 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-03-17 07:25:57.369 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-03-17 07:25:59.800 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-03-17 07:26:09.766 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
