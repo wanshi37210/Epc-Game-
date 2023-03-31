@@ -3106,3 +3106,72 @@ waiting for selector "//div[@id='webPurchaseContainer']//iframe >> internal:cont
 2023-03-31 07:25:39.468 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.26s
 2023-03-31 07:25:40.007 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
 2023-03-31 07:25:48.127 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2023-04-01 07:21:29.977 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-04-01 07:21:31.761 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-04-01 07:21:31.825 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-04-01 07:21:37.713 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-04-01 07:21:40.158 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-04-01 07:21:40.167 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-04-01 07:21:40.561 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Tunche - state=待认领 link=https://store.epicgames.com/zh-CN/p/tunche
+2023-04-01 07:21:40.562 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] The Silent Age - state=待认领 link=https://store.epicgames.com/zh-CN/p/the-silent-age-eb6972
+2023-04-01 07:21:47.687 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Tunche - state=获取 link=https://store.epicgames.com/zh-CN/p/tunche
+2023-04-01 07:21:48.570 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-01 07:21:48.592 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-01 07:21:57.911 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-01 07:21:57.922 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-01 07:22:03.637 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Tunche - state=获取 link=https://store.epicgames.com/zh-CN/p/tunche
+2023-04-01 07:22:04.276 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-01 07:22:04.276 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-01 07:22:13.740 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-01 07:22:13.796 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「洋葱」
+2023-04-01 07:22:13.796 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-01 07:22:14.784 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-01 07:22:15.976 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.19s
+2023-04-01 07:22:16.588 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-01 07:22:21.944 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Tunche - state=获取 link=https://store.epicgames.com/zh-CN/p/tunche
+2023-04-01 07:22:22.536 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-01 07:22:22.536 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-01 07:22:31.855 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-01 07:22:31.892 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「洋葱」
+2023-04-01 07:22:31.892 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-01 07:22:32.908 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-01 07:22:34.131 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.22s
+2023-04-01 07:22:34.666 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-01 07:22:40.910 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] The Silent Age - state=获取 link=https://store.epicgames.com/zh-CN/p/the-silent-age-eb6972
+2023-04-01 07:22:41.384 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-01 07:22:41.400 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-01 07:22:50.765 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-01 07:22:50.799 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「有人打曲棍球」
+2023-04-01 07:22:50.800 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-01 07:22:51.697 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-01 07:22:52.914 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.22s
+2023-04-01 07:22:52.917 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading someone_playing_hockey.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/someone_playing_hockey.onnx
+2023-04-01 07:22:55.003 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - someone_playing_hockey(ResNet)_model: 0.43s
+2023-04-01 07:22:55.022 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-04-01 07:22:57.048 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「有人打曲棍球」
+2023-04-01 07:22:57.048 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-01 07:22:57.935 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-01 07:22:59.145 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.21s
+2023-04-01 07:23:00.809 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - someone_playing_hockey(ResNet)_model: 0.01s
+2023-04-01 07:23:00.882 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-04-01 07:23:00.883 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-04-01 07:23:03.135 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-01 07:23:09.533 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] The Silent Age - state=获取 link=https://store.epicgames.com/zh-CN/p/the-silent-age-eb6972
+2023-04-01 07:23:09.967 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-01 07:23:09.968 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-01 07:23:19.273 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-01 07:23:19.307 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「下图显示的是什么类型的食物？」
+2023-04-01 07:23:19.307 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-01 07:23:19.424 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-01 07:23:20.752 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.33s
+2023-04-01 07:23:21.331 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-01 07:23:27.536 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] The Silent Age - state=获取 link=https://store.epicgames.com/zh-CN/p/the-silent-age-eb6972
+2023-04-01 07:23:28.171 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-01 07:23:28.172 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-01 07:23:37.474 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-01 07:23:37.516 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「下图显示的是什么类型的食物？」
+2023-04-01 07:23:37.516 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-01 07:23:37.643 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-01 07:23:39.032 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.39s
+2023-04-01 07:23:39.617 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-01 07:23:48.848 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
