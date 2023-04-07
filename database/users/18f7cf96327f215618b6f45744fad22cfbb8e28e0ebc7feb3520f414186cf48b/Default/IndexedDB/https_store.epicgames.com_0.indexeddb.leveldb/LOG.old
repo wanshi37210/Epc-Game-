@@ -1,4 +1,13 @@
-2023/04/01-07:21:35.422 7a5 Reusing MANIFEST /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/01-07:21:35.422 7a5 Recovering log #4
-2023/04/01-07:21:35.436 7a5 Reusing old log /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/000004.log 
-2023/04/01-07:21:35.436 7a5 Delete type=0 #3
+2023/04/07-07:22:47.393 7f4 Reusing MANIFEST /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/07-07:22:47.393 7f4 Recovering log #4
+2023/04/07-07:22:47.413 7f4 Reusing old log /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/000004.log 
+2023/04/07-07:22:47.413 7f4 Delete type=0 #3
+2023/04/07-07:24:56.114 7ff Level-0 table #8: started
+2023/04/07-07:24:56.168 7ff Level-0 table #8: 1378046 bytes OK
+2023/04/07-07:24:56.172 7ff Delete type=0 #4
+2023/04/07-07:25:21.442 7ff Compacting 1@1 + 1@2 files
+2023/04/07-07:25:21.457 7ff Generated table #9@1: 208 keys, 26518 bytes
+2023/04/07-07:25:21.457 7ff Compacted 1@1 + 1@2 files => 26518 bytes
+2023/04/07-07:25:21.458 7ff compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/07-07:25:21.458 7ff Delete type=2 #8
+2023/04/07-07:25:21.458 7ff Delete type=2 #5
