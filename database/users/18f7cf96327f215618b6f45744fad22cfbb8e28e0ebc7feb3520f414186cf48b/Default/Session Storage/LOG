@@ -1,6 +1,9 @@
-2023/04/08-07:21:41.127 816 Reusing MANIFEST /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/Session Storage/MANIFEST-000001
-2023/04/08-07:21:41.127 816 Recovering log #4
-2023/04/08-07:21:41.128 816 Reusing old log /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/Session Storage/000004.log 
-2023/04/08-07:21:41.129 816 Delete type=0 #3
-2023/04/08-07:24:47.012 816 Level-0 table #8: started
-2023/04/08-07:24:47.018 816 Level-0 table #8: 11155 bytes OK
+2023/04/14-07:22:59.342 81b Reusing MANIFEST /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/Session Storage/MANIFEST-000001
+2023/04/14-07:22:59.343 81b Recovering log #4
+2023/04/14-07:22:59.344 81b Level-0 table #7: started
+2023/04/14-07:22:59.353 81b Level-0 table #7: 11155 bytes OK
+2023/04/14-07:22:59.356 81b Recovering log #7
+2023/04/14-07:22:59.357 81b Reusing old log /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/Session Storage/000007.log 
+2023/04/14-07:22:59.361 81b Delete type=2 #8
+2023/04/14-07:22:59.361 81b Delete type=0 #4
+2023/04/14-07:22:59.361 81b Delete type=0 #3
