@@ -1,6 +1,6 @@
-2023/04/08-07:21:45.161 802 Reusing MANIFEST /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/08-07:21:45.161 802 Recovering log #7
-2023/04/08-07:21:45.162 802 Reusing old log /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/000007.log 
-2023/04/08-07:21:45.162 802 Delete type=2 #5
-2023/04/08-07:21:45.162 802 Delete type=0 #4
-2023/04/08-07:21:45.162 802 Delete type=0 #3
+2023/04/14-07:23:03.925 80d Reusing MANIFEST /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/14-07:23:03.926 80d Recovering log #7
+2023/04/14-07:23:03.926 80d Reusing old log /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/000007.log 
+2023/04/14-07:23:03.926 80d Delete type=2 #5
+2023/04/14-07:23:03.926 80d Delete type=0 #4
+2023/04/14-07:23:03.926 80d Delete type=0 #3
