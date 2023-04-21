@@ -3682,3 +3682,86 @@ waiting for selector "//div[@id='webPurchaseContainer']//iframe >> internal:cont
 2023-04-21 07:26:18.040 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2023-04-21 07:26:20.375 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
 2023-04-21 07:26:29.036 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2023-04-22 07:22:17.143 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-04-22 07:22:20.256 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-04-22 07:22:20.320 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-04-22 07:22:27.235 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-04-22 07:22:33.339 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-04-22 07:22:33.345 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-04-22 07:22:33.618 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Beyond Blue - state=待认领 link=https://store.epicgames.com/zh-CN/p/beyond-blue
+2023-04-22 07:22:33.618 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Never Alone (Kisima Ingitchuna) - state=待认领 link=https://store.epicgames.com/zh-CN/p/never-alone-kisima-ingitchuna
+2023-04-22 07:22:38.531 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Beyond Blue - state=获取 link=https://store.epicgames.com/zh-CN/p/beyond-blue
+2023-04-22 07:22:39.069 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-22 07:22:39.093 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-22 07:22:48.707 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-22 07:22:48.760 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「爆米花」
+2023-04-22 07:22:48.760 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-22 07:22:49.563 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-22 07:22:50.740 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.18s
+2023-04-22 07:22:50.746 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:323 - Downloading popcorn.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/popcorn.onnx
+2023-04-22 07:22:52.633 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - popcorn(ResNet)_model: 0.26s
+2023-04-22 07:22:52.656 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-04-22 07:22:54.686 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「爆米花」
+2023-04-22 07:22:54.686 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-22 07:22:55.422 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-22 07:22:56.510 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.09s
+2023-04-22 07:22:57.958 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - popcorn(ResNet)_model: 0.01s
+2023-04-22 07:22:58.022 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-04-22 07:22:58.022 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-04-22 07:23:00.265 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-22 07:23:05.856 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Beyond Blue - state=获取 link=https://store.epicgames.com/zh-CN/p/beyond-blue
+2023-04-22 07:23:06.340 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-22 07:23:06.340 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-22 07:23:15.527 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-22 07:23:15.561 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「下图显示的是什么？」
+2023-04-22 07:23:15.562 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-22 07:23:15.731 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-22 07:23:17.933 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=2.2s
+2023-04-22 07:23:18.482 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-22 07:23:24.382 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Beyond Blue - state=获取 link=https://store.epicgames.com/zh-CN/p/beyond-blue
+2023-04-22 07:23:25.100 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-22 07:23:25.100 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-22 07:23:34.259 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-22 07:23:34.285 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「下图显示的是什么？」
+2023-04-22 07:23:34.286 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-22 07:23:34.371 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-22 07:23:35.556 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.19s
+2023-04-22 07:23:36.093 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-22 07:23:42.292 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Never Alone (Kisima Ingitchuna) - state=获取 link=https://store.epicgames.com/zh-CN/p/never-alone-kisima-ingitchuna
+2023-04-22 07:23:42.768 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-22 07:23:43.008 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-22 07:23:52.254 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-22 07:23:52.288 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「下图显示的是什么类型的游戏？」
+2023-04-22 07:23:52.288 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-22 07:23:52.405 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-22 07:23:53.558 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.15s
+2023-04-22 07:23:54.107 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-22 07:23:59.860 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Never Alone (Kisima Ingitchuna) - state=获取 link=https://store.epicgames.com/zh-CN/p/never-alone-kisima-ingitchuna
+2023-04-22 07:24:00.363 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-22 07:24:00.363 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-22 07:24:09.542 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-22 07:24:09.575 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「下图显示的是什么类型的游戏？」
+2023-04-22 07:24:09.575 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-22 07:24:09.669 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-22 07:24:10.768 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.1s
+2023-04-22 07:24:11.269 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-22 07:24:17.427 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Never Alone (Kisima Ingitchuna) - state=获取 link=https://store.epicgames.com/zh-CN/p/never-alone-kisima-ingitchuna
+2023-04-22 07:24:17.794 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-22 07:24:17.794 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-22 07:24:26.971 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-22 07:24:27.003 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「电动滑板车」
+2023-04-22 07:24:27.003 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-22 07:24:27.723 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-22 07:24:28.834 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.11s
+2023-04-22 07:24:28.837 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:323 - Downloading electric_scooter.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/electric_scooter.onnx
+2023-04-22 07:24:30.960 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - electric_scooter(ResNet)_model: 0.34s
+2023-04-22 07:24:30.979 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-04-22 07:24:33.001 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「电动滑板车」
+2023-04-22 07:24:33.002 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-22 07:24:33.811 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-22 07:24:34.912 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.1s
+2023-04-22 07:24:36.511 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - electric_scooter(ResNet)_model: 0.01s
+2023-04-22 07:24:36.563 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-04-22 07:24:36.563 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-04-22 07:24:38.755 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-22 07:24:46.380 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
