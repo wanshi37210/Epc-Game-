@@ -4265,3 +4265,71 @@ navigating to "https://store.epicgames.com/zh-CN/free-games", waiting until "loa
 2023-05-12 07:23:49.974 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2023-05-12 07:23:52.324 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
 2023-05-12 07:23:59.159 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2023-05-13 07:21:31.551 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-05-13 07:21:33.422 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-05-13 07:21:33.511 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-05-13 07:21:44.967 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-05-13 07:21:47.039 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-05-13 07:21:47.051 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-05-13 07:21:47.319 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] The Sims™ 4 冒险生活同捆包 - state=待认领 link=https://store.epicgames.com/zh-CN/p/the-sims-4
+2023-05-13 07:21:57.916 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] The Sims™ 4 冒险生活同捆包 - state=获取 link=https://store.epicgames.com/zh-CN/p/the-sims-4
+2023-05-13 07:21:58.707 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-05-13 07:21:58.731 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-05-13 07:22:10.536 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-05-13 07:22:10.603 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「电动滑板车」
+2023-05-13 07:22:10.603 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-05-13 07:22:11.697 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-05-13 07:22:12.954 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.26s
+2023-05-13 07:22:12.960 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:323 - Downloading electric_scooter.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/electric_scooter.onnx
+2023-05-13 07:22:14.835 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - electric_scooter(ResNet)_model: 0.58s
+2023-05-13 07:22:14.856 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-05-13 07:22:16.900 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「电动滑板车」
+2023-05-13 07:22:16.900 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-05-13 07:22:18.011 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-05-13 07:22:19.198 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.19s
+2023-05-13 07:22:20.883 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - electric_scooter(ResNet)_model: 0.01s
+2023-05-13 07:22:20.945 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-05-13 07:22:20.945 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-05-13 07:22:23.398 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-05-13 07:22:31.344 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] The Sims™ 4 冒险生活同捆包 - state=获取 link=https://store.epicgames.com/zh-CN/p/the-sims-4
+2023-05-13 07:22:31.875 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-05-13 07:22:31.875 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-05-13 07:22:41.343 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-05-13 07:22:41.417 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「狗」
+2023-05-13 07:22:41.417 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-05-13 07:22:42.493 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-05-13 07:22:43.636 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.14s
+2023-05-13 07:22:43.637 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] lazy-loading - sign=YOLO match=dog
+2023-05-13 07:22:43.642 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:323 - Downloading yolov5s6.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/yolov5s6.onnx
+2023-05-13 07:22:46.492 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - YOLOv5s6(ONNX)_model: 1.73s
+2023-05-13 07:22:46.521 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-05-13 07:22:48.562 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「狗」
+2023-05-13 07:22:48.562 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-05-13 07:22:49.645 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-05-13 07:22:50.823 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.18s
+2023-05-13 07:22:50.824 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] lazy-loading - sign=YOLO match=dog
+2023-05-13 07:22:53.070 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - YOLOv5s6(ONNX)_model: 0.44s
+2023-05-13 07:22:53.139 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-05-13 07:22:53.140 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-05-13 07:22:55.646 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-05-13 07:23:03.345 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] The Sims™ 4 冒险生活同捆包 - state=获取 link=https://store.epicgames.com/zh-CN/p/the-sims-4
+2023-05-13 07:23:03.950 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-05-13 07:23:03.950 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-05-13 07:23:13.577 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-05-13 07:23:13.630 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「狗」
+2023-05-13 07:23:13.631 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-05-13 07:23:14.719 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-05-13 07:23:15.896 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.18s
+2023-05-13 07:23:15.898 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] lazy-loading - sign=YOLO match=dog
+2023-05-13 07:23:17.746 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - YOLOv5s6(ONNX)_model: 0.46s
+2023-05-13 07:23:17.773 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-05-13 07:23:19.806 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「狗」
+2023-05-13 07:23:19.807 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-05-13 07:23:20.896 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-05-13 07:23:22.352 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.46s
+2023-05-13 07:23:22.353 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] lazy-loading - sign=YOLO match=dog
+2023-05-13 07:23:24.382 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - YOLOv5s6(ONNX)_model: 0.42s
+2023-05-13 07:23:24.663 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-05-13 07:23:24.663 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-05-13 07:23:27.004 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-05-13 07:23:35.638 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
