@@ -4342,3 +4342,11 @@ navigating to "https://store.epicgames.com/zh-CN/free-games", waiting until "loa
 2023-05-19 07:22:36.985 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] DEATH STRANDING - state=待认领 link=https://store.epicgames.com/zh-CN/p/death-stranding
 2023-05-19 07:22:48.369 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] DEATH STRANDING - state=已在库中 link=https://store.epicgames.com/zh-CN/p/death-stranding
 2023-05-19 07:22:51.054 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2023-05-20 07:22:17.039 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-05-20 07:22:18.761 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-05-20 07:22:18.820 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-05-20 07:22:27.433 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-05-20 07:22:29.457 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-05-20 07:22:29.465 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-05-20 07:22:29.796 | DEBUG    | services.deploy:preload:281 - >> Checkout [GameClaimer] DEATH STRANDING - state=已在库中 link=https://store.epicgames.com/zh-CN/p/death-stranding
+2023-05-20 07:22:32.967 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
