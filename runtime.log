@@ -4382,3 +4382,11 @@ navigating to "https://store.epicgames.com/zh-CN/free-games", waiting until "loa
 2023-06-03 07:23:16.641 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
 2023-06-03 07:23:16.912 | DEBUG    | services.deploy:preload:281 - >> Checkout [GameClaimer] Midnight Ghost Hunt - state=已在库中 link=https://store.epicgames.com/zh-CN/p/midnight-ghost-hunt
 2023-06-03 07:23:17.576 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2023-06-09 07:23:13.950 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-06-09 07:23:20.439 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-06-09 07:23:20.493 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-06-09 07:23:22.871 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-06-09 07:23:25.439 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-06-09 07:23:25.445 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-06-09 07:23:25.812 | DEBUG    | services.deploy:preload:281 - >> Checkout [GameClaimer] PAYDAY 2 - state=已在库中 link=https://store.epicgames.com/zh-CN/p/payday-2-c66369
+2023-06-09 07:23:28.568 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
