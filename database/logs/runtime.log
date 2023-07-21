@@ -5163,3 +5163,12 @@ playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
 2023-07-21 07:22:13.093 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Murder by Numbers - state=待认领 link=https://store.epicgames.com/zh-CN/p/murder-by-numbers
 2023-07-21 07:22:13.094 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] The Elder Scrolls Online - state=待认领 link=https://store.epicgames.com/zh-CN/p/the-elder-scrolls-online
 2023-07-21 07:22:19.847 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
+2023-07-22 07:21:11.532 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-07-22 07:21:13.803 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-07-22 07:21:13.851 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-07-22 07:21:21.544 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-07-22 07:21:21.831 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-07-22 07:21:21.838 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-07-22 07:21:22.105 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Murder by Numbers - state=待认领 link=https://store.epicgames.com/zh-CN/p/murder-by-numbers
+2023-07-22 07:21:22.106 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] The Elder Scrolls Online - state=待认领 link=https://store.epicgames.com/zh-CN/p/the-elder-scrolls-online
+2023-07-22 07:21:27.720 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
