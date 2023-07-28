@@ -1,5 +1,4 @@
-2023/07/22-07:21:13.520 7d3 Reusing MANIFEST /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/Local Storage/leveldb/MANIFEST-000001
-2023/07/22-07:21:13.521 7d3 Recovering log #3
-2023/07/22-07:21:13.561 7d3 Level-0 table #3: started
-2023/07/22-07:21:13.596 7d3 Level-0 table #3: 268868 bytes OK
-2023/07/22-07:21:13.601 7d3 Delete type=0 #3
+2023/07/28-07:20:39.466 83c Reusing MANIFEST /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/Local Storage/leveldb/MANIFEST-000001
+2023/07/28-07:20:39.467 83c Recovering log #4
+2023/07/28-07:20:39.467 83c Reusing old log /home/runner/work/Epc-Game-/Epc-Game-/epic/src/database/users/18f7cf96327f215618b6f45744fad22cfbb8e28e0ebc7feb3520f414186cf48b/Default/Local Storage/leveldb/000004.log 
+2023/07/28-07:20:39.467 83c Delete type=0 #3
