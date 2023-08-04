@@ -5672,3 +5672,12 @@ retrying click action, attempt #60
 retrying click action, attempt #61
   waiting 500ms
 ============================================================
+2023-08-05 07:20:59.671 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-08-05 07:21:02.230 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-08-05 07:21:02.304 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-08-05 07:21:11.056 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-08-05 07:21:11.321 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-08-05 07:21:11.338 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-08-05 07:21:11.844 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Loop Hero - state=待认领 link=https://store.epicgames.com/zh-CN/p/loop-hero
+2023-08-05 07:21:11.845 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Bloons TD 6 - state=待认领 link=https://store.epicgames.com/zh-CN/p/bloons-td-6-bf95a0
+2023-08-05 07:21:17.982 | SUCCESS  | services.deploy:_pusher_wrapper:203 - >> Notify [GameClaimer] 推送运行报告 - active_pusher=['PUSHER_TELEGRAM']
